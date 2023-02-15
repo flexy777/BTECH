@@ -72,3 +72,17 @@ cursor: pointer;
   
  
 }
+.btn-yellow{
+  background: #d9b223;
+}
+.btn-lightb{
+  background: #E9EFFF;
+  border: 1px solid #d9b223;
+  color: #d9b223;
+}
+.first-section{
+  margin-left: 40px;
+}
+.first-section h1{
+  width: max-content;
+}

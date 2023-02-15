@@ -9,20 +9,20 @@ class Header extends Component {
             <div className="col-5 col-lg-2 ps-lg-0 me-auto me-lg-0">
               <a className="navbar-brand" href="/">
                 <img
-                  src="new_images/BOOLEAN-BLACK.png"
-                  data-at2x="new_images/BOOLEAN-BLACK.png"
+                  src="Boolean_Images/Tech_logo.png"
+                  data-at2x="Boolean_Images/Tech_logo.png"
                   alt=""
                   className="default-logo"
                 />
                 <img
-                  src="new_images/BOOLEAN-BLACK.png"
-                  data-at2x="new_images/BOOLEAN-BLACK.png"
+                  src="Boolean_Images/Tech_logo.png"
+                  data-at2x="Boolean_Images/Tech_logo.png"
                   alt=""
                   className="alt-logo"
                 />
                 <img
-                  src="new_images/BOOLEAN-BLACK.png"
-                  data-at2x="new_images/BOOLEAN-BLACK.png"
+                  src="Boolean_Images/Tech_logo.png"
+                  data-at2x="Boolean_Images/Tech_logo.png"
                   className="mobile-logo"
                   alt=""
                 />
@@ -107,18 +107,13 @@ class Header extends Component {
             </div>
             <div className="col-auto col-lg-2 text-end hidden-xs px-lg-0">
               <div className="header-social-icon d-inline-block">
-                <a href="https://www.instagram.com/the_boolean_technologies" target="_blank">
-                  <i className="fab fa-instagram" />
-                </a>
-                <a href="http://www.twitter.com/" target="_blank">
-                  <i className="fab fa-twitter" />
-                </a>
-                <a href="https://ng.linkedin.com/company/the-boolean-technologies-nig-ltd" target="_blank">
-                  <i className="fab fa-linkedin" />
-                </a>                
-                <a href="http://www.facebook.com/" target="_blank">
-                  <i className="fab fa-facebook-f" />
-                </a>
+              <a
+                    href="contact-us.html"
+                    className="btn btn-medium btn-yellow btn-round-edge"
+                  >
+                    GET A QUOTE
+                    <span className="m-2"><i className="fas fa-arrow-circle-right"></i></span>
+                  </a>
               </div>
             </div>
           </div>
