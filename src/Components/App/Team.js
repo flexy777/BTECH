@@ -65,6 +65,7 @@ class Team extends React.Component {
         const menus = [
             {quote:"Chief Executive Officer", name: "ERIK OBIANOZIE", position:"Chief Executive Officer", picture:"images/CEO-Erik.png"},
             {quote:"Chief Operation Officer", name: "UGOCHUKWU RONALD EMERUWA", position:"Chief Operation Officer", picture:"images/COO_Ronald.jpg"},
+            {quote:"Chief Technology Officer", name: "SHOLANKE OLUWATOBI", position:"Chief Technology Officer", picture:"images/CTO-Tobi.jpg"},
             {quote:"Chief Technology Officer", name: "SHOLANKE OLUWATOBI", position:"Chief Technology Officer", picture:"images/CTO-Tobi.jpg"}
             
 

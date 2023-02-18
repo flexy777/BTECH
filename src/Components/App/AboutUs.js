@@ -5,66 +5,172 @@ import Team from "./Team";
 class AboutUs extends Component {
   render() {
     return (
-      <AppLayer navbarClass={"navbar navbar-expand-lg navbar-dark bg-transparent header-light fixed-top header-reverse-scroll"}
-     >
+      <AppLayer
+        navbarClass={
+          "navbar navbar-expand-lg navbar-dark bg-transparent header-light fixed-top header-reverse-scroll"
+        }
+      >
         <section
           className="parallax"
           data-parallax-background-ratio="0.5"
-          style={{ backgroundImage: 'url("new_images/network.jpg")' }}
+          style={{ backgroundImage: 'url("Boolean_Images/Group 93.png")' }}
         >
-          <div className="opacity-extra-medium bg-extra-dark-gray" />
+          <div className="opacity-extra-medium bg-extra-dark" />
           <div className="container">
             <div className="row align-items-stretch justify-content-center small-screen">
               <div className="col-12 position-relative page-title-extra-small text-center d-flex align-items-center justify-content-center flex-column">
-                <h1 className="alt-font text-white opacity-6 margin-20px-bottom">
-                  About our company
+                <h1
+                  style={{ fontSize: "25px" }}
+                  className="alt-font text-white  margin-20px-bottom font-weight-300"
+                >
+                  WHAT WE DO?
                 </h1>
-                <h2 className="text-white alt-font font-weight-500 w-55 md-w-65 sm-w-80 center-col xs-w-100 letter-spacing-minus-1px line-height-50 sm-line-height-45 xs-line-height-30 no-margin-bottom">
-                  We Develop Technology
+                <h2
+                  style={{ color: "#d9b223" }}
+                  className="alt-font font-weight-500 w-55 md-w-65 sm-w-80 center-col xs-w-100 letter-spacing-minus-1px line-height-50 sm-line-height-45 xs-line-height-30 no-margin-bottom"
+                >
+                  We Bring Life To Your Idea
                 </h2>
               </div>
-              <div className="down-section text-center">
+              {/* <div className="down-section text-center">
                 <a href="#about" className="section-link">
                   <i className="ti-arrow-down icon-extra-small text-black bg-yellow padding-15px-all xs-padding-10px-all border-radius-100" />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
         {/* end page title */}
         {/* start section */}
-        <section id="about" className="bg-light-gray">
+        <section style={{ background: "black" }}>
           <div className="container">
-            <div className="row">
-              <div className="col-12 col-lg-4 pe-lg-0 d-flex md-margin-30px-bottom">
-                <div
-                  className="w-100 md-h-700px sm-h-550px xs-h-450px cover-background"
-                  style={{
-                    backgroundImage: 'url("new_images/girltech.jpg")',
-                  }}
-                />
+            <div className="row align-items-center justify-content-center">
+              <div
+                className="col-lg-6  text-center md-margin-30px-bottom wow animate__fadeIn"
+                data-wow-delay="0.2s"
+                style={{
+                  width: "50%",
+                }}
+              >
+                <img src="Boolean_Images/shutterstock_2120269418.png" alt="" />
               </div>
-              <div className="col-12 col-lg-4 col-md-6 ps-lg-0 d-flex sm-margin-30px-bottom">
-                <div className="justify-content-center w-100 d-flex flex-column bg-yellow padding-5-half-rem-lr lg-padding-3-rem-lr md-padding-4-rem-all">
-                  <span className="text-large alt-font font-weight-200 text-black margin-20px-bottom d-block">
-                  The Boolean Technology is a technology development and consulting company in Abuja Nigeria. We are experienced in designing and nurturing technology from nothing to a fully functioning product. We make tailor made solutions specifically for our clients, as we advice then on the best course of actions to take to give maximum probability for success.
-                  </span>
-                  <a
-                    href="/services"
-                    className="btn btn-large btn-link text-black text-black-hover align-self-start"
+
+              <div className="col-lg-6 ">
+                <h1
+                  style={{
+                    fontSize: "2rem",
+                    fontWeight: "bold",
+                    color: "#d9b223",
+                  }}
+                >
+                  COMPANY OVERVIEW
+                </h1>
+
+                <p
+                  style={{
+                    color: "white",
+                    fontWeight: "450",
+                    // textAlign:"justify",
+                    fontSize: "20px",
+                    lineHeight: "2",
+                  }}
+                >
+                  The Boolean Technology is a technology development and
+                  consulting company in Abuja Nigeria. We are experienced in
+                  designing and nurturing technology from nothing to a fully
+                  functioning product. We make tailor made solutions
+                  specifically for our clients, as we advice then on the best
+                  course of actions to take to give maximum probability for
+                  success.
+                </p>
+                <a href="#">
+                  <button className="btn btn-medium btn-yellow ">
+                    GET PROJECT QUOTE
+                    <span className="m-2">
+                      <i className="fas fa-arrow-circle-right"></i>
+                    </span>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          style={{
+            // backgroundImage: 'url("Boolean_Images/Group 74.png")',
+            // backgroundSize: "100%",
+            background:"#624D01"
+          }}
+        >
+          <div className="container">
+            <div
+              style={{
+                width: "90%",
+                margin: "auto",
+                backgroundImage: 'url("Boolean_Images/Group 108.png")',
+                backgroundSize: "100%",
+                borderRadius: "20px",
+                // height: "200px"
+              }}
+              className="row"
+            >
+              <div
+                className="col-lg-4  text-center md-margin-30px-bottom wow animate__fadeIn"
+                data-wow-delay="0.2s"
+              >
+                <div>
+                  <h1
+                    style={{
+                      color: "#d9b223",
+                      fontWeight: "bold",
+                      fontSize: "50px",
+                      marginBottom: "0px",
+                    }}
                   >
-                    Company overview
-                  </a>
+                    300+
+                  </h1>
+                  <p style={{ color: "#d9b223", fontWeight: "bold" }}>
+                    Projects Completed
+                  </p>
                 </div>
               </div>
-              <div className="col-12 col-lg-4 col-md-6">
-                <img src="new_images/pexels-kampus-production-5940708.jpg" alt="" />
-                <div className="bg-black padding-3-half-rem-lr padding-3-rem-tb lg-padding-2-rem-all md-padding-2-half-rem-all sm-padding-4-rem-all last-paragraph-no-margin">
-                  <span className="alt-font text-yellow font-weight-500 margin-10px-bottom d-block">
-                    OUR MISSION
-                  </span>
-                  <p className="text-large alt-font font-weight-200 margin-20px-bottom d-block text-yellow">
-                  It is with passion and commitment to the advancement of technology that we develop software to face real world struggles. It is our love and dedication to the engineerinng of each product that allows us get better with every product. 
+              <div
+                className="col-lg-4  text-center md-margin-30px-bottom wow animate__fadeIn"
+                data-wow-delay="0.2s"
+              >
+                <div>
+                  <h1
+                    style={{
+                      color: "#d9b223",
+                      fontWeight: "bold",
+                      fontSize: "50px",
+                      marginBottom: "0px",
+                    }}
+                  >
+                    40+
+                  </h1>
+                  <p style={{ color: "#d9b223", fontWeight: "bold" }}>
+                    Team Members
+                  </p>
+                </div>
+              </div>
+              <div
+                className="col-lg-4  text-center md-margin-30px-bottom wow animate__fadeIn"
+                data-wow-delay="0.2s"
+              >
+                <div>
+                  <h1
+                    style={{
+                      color: "#d9b223",
+                      fontWeight: "bold",
+                      fontSize: "50px",
+                      marginBottom: "0px",
+                    }}
+                  >
+                    1.1k+
+                  </h1>
+                  <p style={{ color: "#d9b223", fontWeight: "bold" }}>
+                    Customers
                   </p>
                 </div>
               </div>
@@ -73,61 +179,99 @@ class AboutUs extends Component {
         </section>
         {/* end section */}
         {/* start section */}
-        <section className="bg-light-gray wow animate__fadeIn">
+        <section style={{ background: "black" }}>
           <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-12 col-lg-6 col-sm-8 text-center margin-5-rem-bottom md-margin-3-rem-bottom">
-                {/* <span className="text-extra-medium margin-15px-bottom alt-font d-block w-100">
-                  Browse amazing social media features
-                </span> */}
-                <h5 className="alt-font text-extra-dark-gray font-weight-500 margin-2-rem-bottom sm-w-100">
-                  We offer a full range of software development services!
-                </h5>
-              </div>
-            </div>
-            <div className="row justify-content-center">
-              {/* start feature box item */}
-              <div className="col-12 col-lg-6 col-md-9 margin-30px-bottom xs-margin-15px-bottom">
-                <div className="feature-box h-100 feature-box-left-icon border-radius-5px bg-black box-shadow-small  overflow-hidden padding-4-rem-all">
-                  <div className="feature-box-icon">
-                    <i className="line-icon-Navigation-LeftWindow icon-medium text-white" />
-                  </div>
-                  <div className="feature-box-content last-paragraph-no-margin">
-                    <span className="alt-font font-weight-500 margin-10px-bottom d-block text-white">
-                      Who we are?
+            <div className="row align-items-center justify-content-center">
+              <div className="col-lg-6 ">
+                <h1
+                  style={{
+                    fontSize: "2rem",
+                    fontWeight: "bold",
+                    color: "#d9b223",
+                  }}
+                >
+                  OUR MISSION
+                </h1>
+
+                <p
+                  style={{
+                    color: "white",
+                    fontWeight: "450",
+                    // textAlign:"justify",
+                    fontSize: "20px",
+                    lineHeight: "2",
+                  }}
+                >
+                  It is with passion and commitment to the advancement of
+                  technology that we develop software to face real world
+                  struggles. It is our love and dedication to the engineerinng
+                  of each product that allows us get better with every product.
+                </p>
+                <a href="#">
+                  <button className="btn btn-medium btn-yellow ">
+                    READ MORE
+                    <span className="m-2">
+                      <i className="fas fa-arrow-circle-right"></i>
                     </span>
-                    <p className="text-white">
-                    The Boolean Technology is a technology development and consulting company in Abuja Nigeria. We are experienced in designing and nurturing technology from nothing to a fully functioning product. We make tailor made solutions specifically for our clients, as we advice then on the best course of actions to take to give maximum probability for success.
-                    </p>
-                  </div>
-                 
-                </div>
+                  </button>
+                </a>
               </div>
-              {/* end feature box item */}
-              {/* start feature box item */}
-              <div className="col-12 col-lg-6 col-md-9 margin-30px-bottom xs-margin-15px-bottom">
-                <div className="feature-box h-100 feature-box-left-icon border-radius-5px bg-yellow box-shadow-small  overflow-hidden padding-4-rem-all">
-                  <div className="feature-box-icon">
-                    <i className="line-icon-Cursor-Click2 icon-medium text-black" />
-                  </div>
-                  <div className="feature-box-content last-paragraph-no-margin">
-                    <span className="alt-font font-weight-500 margin-10px-bottom d-block text-black">
-                      Our Approach
-                    </span>
-                    <p className="text-black">
-                    Our skilled strategists, designers, and developers are here to take your project from idea to publication. Being a leading software development company in Nigeria, our team is committed to developing mobile app and web-based software solutions that keep your users hooked.
-                    </p>
-                  </div>
-                  
-                </div>
+              <div
+                className="col-lg-6  text-center md-margin-30px-bottom wow animate__fadeIn"
+                data-wow-delay="0.2s"
+                style={{
+                  width: "50%",
+                }}
+              >
+                <img src="Boolean_Images/shutterstock_1361068394.png" alt="" />
               </div>
-              {/* end feature box item */}
             </div>
           </div>
         </section>
         {/* end section */}
+        <section style={{ background: "black" }}>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-4 ">
+                <h1
+                  style={{
+                    fontSize: "5rem",
+                    width:"600px",
+                    height:"400px",
+                    fontWeight: "bold",
+                    color: "black",
+                    rotate:"-90deg",
+                    WebkitTextStroke:" 2px #d9b223"
+                  }}
+                >
+                  OUR APPROACH
+                </h1>
+              </div>
+              <div
+                className="col-lg-8"
+                data-wow-delay="0.2s"
+                style={{
+                  // width: "50%",
+                  // color:"d9b223",
+                  // fontSize:"50px",
+                  fontWeight:"bold"
+
+                }}
+              >
+                <h1 style={{fontSize:"50px", color:"#d9b223"}}>WE OFFER A FULL RANGE OF SOFTWARE DEVELOPMENT SERVICES!</h1>
+                <p style={{color:"white"}}>
+                  Our skilled strategists, designers, and developers are here to
+                  take your project from idea to publication. Being a leading
+                  software development company in Nigeria, our team is committed
+                  to developing mobile app and web-based software solutions that
+                  keep your users hooked.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
         {/* start section */}
-        <section className="wow animate__fadeIn">
+        <section className="wow animate__fadeIn" style={{paddingBottom:"10px"}}>
           <div className="container">
             <div className="row align-items-center">
               <div className="col-12 col-lg-6 md-margin-50px-bottom wow animate__fadeIn">
@@ -139,7 +283,10 @@ class AboutUs extends Component {
                   <div className="swiper-wrapper">
                     {/* start slider item */}
                     <div className="swiper-slide">
-                      <img src="new_images/pexels-andrea-piacquadio-3892920.jpg" alt="" />
+                      <img
+                        src="Boolean_Images/shutterstock_1707351835.png"
+                        alt=""
+                      />
                     </div>
                     {/* end slider item */}
                     {/* start slider item */}
@@ -174,11 +321,15 @@ class AboutUs extends Component {
                 className="col-12 col-lg-5 offset-lg-1 wow animate__fadeIn"
                 data-wow-delay="0.2s"
               >
-                <h5 className="alt-font text-extra-dark-gray font-weight-500">
-                  It is teamwork that makes the dream work.
+                <h5 className="alt-font text-extra-dark-gray font-weight-600">
+                 IT IS <span style={{color:"#db9223"}}>TEAMWORK</span> THAT MAKES THE DREAM WORK.
                 </h5>
-                <p>
-                With years of experience in the design and development industry.<br/>The Boolean Tech pride ourselves on creating unique, creative &amp; quality designs that are developed on the best technology available. 
+                <p style={{color:"black", fontWeight:"400"}}>
+                  With years of experience in the design and development
+                  industry.
+                  The Boolean Tech pride ourselves on creating unique, creative
+                  &amp; quality designs that are developed on the best
+                  technology available.
                 </p>
                 <ul className="p-0 list-style-02 margin-2-rem-top margin-3-rem-bottom">
                   <li className="margin-15px-bottom">
@@ -196,7 +347,7 @@ class AboutUs extends Component {
                       aria-hidden="true"
                     />
                     <span className="text-extra-dark-gray alt-font">
-                    Pixel perfect designs
+                      Pixel perfect designs
                     </span>
                   </li>
                   <li className="margin-15px-bottom">
@@ -209,120 +360,41 @@ class AboutUs extends Component {
                     </span>
                   </li>
                 </ul>
-                <a
-                  href="/contact-us"
-                  className="btn btn-medium btn-fast-yellow btn-round-edge"
-                >
-                  Get Started Now
+                <a href="#">
+                  <button className="btn btn-medium btn-yellow ">
+                    Get Started Now
+                    <span className="m-2">
+                      <i className="fas fa-arrow-circle-right"></i>
+                    </span>
+                  </button>
                 </a>
               </div>
             </div>
           </div>
         </section>
-        {/* end section */}
-        
-        {/* start section */}
-        {/* <section className="wow animate__fadeIn pt-md-0 pb-md-0 overflow-visible sm-border-bottom sm-border-color-medium-gray">
-          <div className="container">
-            <div className="row align-items-center justify-content-center no-margin-lr overlap-section">
-              <div className="col-12 box-shadow-medium bg-white align-items-center padding-4-rem-all sm-no-padding-tb sm-padding-15px-lr sm-box-shadow-none">
-                <div className="row row-cols-1 row-cols-md-3"> */}
-                  {/* start counter item */}
-                  {/* <div className="col border-right border-color-medium-gray text-center sm-no-border-right sm-margin-30px-bottom">
-                    <h4
-                      className="text-fast-blue alt-font font-weight-500 mb-xl-0 d-inline-block align-middle w-130px lg-w-100 counter"
-                      data-speed={2000}
-                      data-to={1227}
-                    />
-                    <div className="d-inline-block align-middle text-center text-xl-start">
-                      <span className="alt-font text-extra-dark-gray font-weight-500 line-height-14px d-block ">
-                        Winning awards
-                      </span>
-                      <span className="alt-font">For creative applications</span>
-                    </div>
-                  </div> */}
-                  {/* end counter item */}
-                  {/* start counter item */}
-                  {/* <div className="col border-right border-color-medium-gray text-center sm-no-border-right sm-margin-30px-bottom">
-                    <h4
-                      className="text-fast-blue alt-font font-weight-500 mb-xl-0 d-inline-block align-middle w-130px lg-w-100 counter"
-                      data-speed={2000}
-                      data-to={1947}
-                    />
-                    <div className="d-inline-block align-middle text-center text-xl-start">
-                      <span className="alt-font text-extra-dark-gray font-weight-500 line-height-14px d-block">
-                        Working hours
-                      </span>
-                      <span className="alt-font">Desperate for work</span>
-                    </div>
-                  </div> */}
-                  {/* end counter item */}
-                  {/* start counter item */}
-                  {/* <div className="col text-center">
-                    <h4
-                      className="text-fast-blue alt-font font-weight-500 mb-xl-0 d-inline-block align-middle w-130px lg-w-100 counter"
-                      data-speed={2000}
-                      data-to={1587}
-                    />
-                    <div className="d-inline-block align-middle text-center text-xl-start">
-                      <span className="alt-font text-extra-dark-gray font-weight-500 line-height-14px d-block">
-                        Happy clients
-                      </span>
-                      <span className="alt-font">We love clients</span>
-                    </div>
-                  </div> */}
-                  {/* end counter item */}
-                {/* </div>
-              </div>
+       
+
+       <section style={{backgroundImage: 'url("Boolean_Images/Group 94.png")', backgroundSize:"100%", color:"white", fontWeight:"bold"}}>
+        <div className="container" >
+          <div className="row " >
+            <div className="col-9">
+              <h6><span style={{ color: "#d9b223"}}>Creative developers</span>, clever thinkers and marketing superheroes apply for work with us.</h6>
+            </div>
+            <div className="col-3">
+                <a href="#">
+                  <button className="btn btn-medium btn-yellow " style={{width:"200px", height:"50px"}}>
+                    JOIN THE TEAM
+                    <span className="m-2">
+                      <i className="fas fa-arrow-circle-right"></i>
+                    </span>
+                  </button>
+                </a>
             </div>
           </div>
-        </section> */}
-        {/* end section */}
-        {/* start section */}
-        <section className="wow animate__fadeIn">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-12 col-md-6 text-center margin-4-half-rem-bottom sm-margin-3-rem-bottom">
-                <span className="alt-font text-extra-medium">
-                  {/* The Executives */}
-                </span>
-                <h5 className="alt-font text-extra-dark-gray font-weight-300">
-                  The Executive Team
-                </h5>
-              </div>
-            </div>
-            <div className="row row-cols-1 row-cols-md-3 row-cols-sm-1 justify-content-center">
-              <Team/>
-              </div>
-            <div className="bg-medium-light-gray margin-6-rem-bottom margin-3-rem-top w-100 h-1px" />
-            <div className="row align-items-center justify-content-center">
-              <div
-                className="col-12 col-xl-7 col-md-8 col-sm-10 text-center text-md-start sm-margin-30px-bottom wow animate__fadeIn"
-                data-wow-delay="0.1s"
-              >
-                <h6 className="alt-font text-extra-dark-gray font-weight-500 mb-0 md-w-90 sm-w-100">
-                  <strong className="text-decoration-underline">
-                    Creative developers,
-                  </strong>{" "}
-                  clever thinkers and marketing superheroes apply for work with
-                  us.
-                </h6>
-              </div>
-              <div
-                className="col-12 col-xl-5 col-md-4 text-center text-md-end wow animate__fadeIn"
-                data-wow-delay="0.2s"
-              > 
-              <a href="/contact-us">
-                {/* <button className="join-team">
-                  Join the team  </button> */}
-                  {/* <button className="button-10 d-inline" role="button">Join the team</button> */}
-                  <a href="/contact-us" className="btn btn-medium btn-fast-yellow btn-round-edge">Join the team!</a>
-                  <span className="bg-yellow" />
-                  </a>
-              </div>
-            </div>
-          </div>
-        </section>
+
+        </div>
+       </section>
+       
       </AppLayer>
     );
   }

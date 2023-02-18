@@ -7,6 +7,7 @@ class FirstSection extends Component {
         data-parallax-background-ratio="0.3"
         style={{
           backgroundImage: 'url("new_images/boolean_bg_left1.jpg")',
+          //background: "#e9efff",
         }}
       >
         <div
@@ -17,9 +18,9 @@ class FirstSection extends Component {
           //     'url("images/home-design-agency-bg-img-01.png")',
           // }}
         />
-        <div className="container first-section">
-          <div className="row">
-            <div className=" col-6 col-lg-5 col-md-6 col-sm-7 full-screen md-h-650px sm-h-500px d-flex flex-column justify-content-center padding-8-rem-tb">
+        <div className="container-fluid first-section" >
+          <div className="row" >
+            <div className=" col-lg-6 d-flex flex-column  padding-8-rem-tb ">
               <h1
                 className="font-weight-600 text-extra-dark-gray letter-spacing-minus-2px margin-2-half-rem-bottom sm-letter-spacing-minus-1-half xs-w-65"
                 style={{
@@ -60,7 +61,8 @@ class FirstSection extends Component {
               </a>
               </div>
             </div>
-            /
+            <div className="col-lg-6 "></div>
+            
           </div>
         </div>
       </section>

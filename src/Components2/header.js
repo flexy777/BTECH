@@ -7,7 +7,7 @@ class Header extends Component {
         <nav className={navbarClass || "navbar navbar-expand-lg navbar-light bg-transparent header-light fixed-top navbar-boxed header-reverse-scroll"}>
           <div className="container-fluid nav-header-container">
             <div className="col-5 col-lg-2 ps-lg-0 me-auto me-lg-0">
-              <a className="navbar-brand" href="/">
+              <a className="navbar-brand" href="/"> 
                 <img
                   src="Boolean_Images/Tech_logo.png"
                   data-at2x="Boolean_Images/Tech_logo.png"
@@ -48,7 +48,7 @@ class Header extends Component {
               >
                 <ul className="navbar-nav alt-font">
                   <li className="nav-item dropdown megamenu top">
-                    <a href="/" className="nav-link">
+                    <a href="/home" className="nav-link">
                       Home</a>
                     </li>
                   <li className="nav-item dropdown simple-dropdown top">

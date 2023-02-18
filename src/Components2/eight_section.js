@@ -2,61 +2,59 @@ import React, { Component } from "react";
 class EightSection extends Component {
   render() {
     return (
-      <div>
-        <div>
-            <div
-              className="wow animate__fadeIn"
-              data-wow-delay="0.4s"
-              style = {{
-                float: "right"
-              }}              
+      <section style={{background:"#A58903"}}>
+        <div className="container">
+          <div className="row align-items-center justify-content-center">
+
+          <div
+              className="col-lg-6  text-center md-margin-30px-bottom wow animate__fadeIn"
+              data-wow-delay="0.2s"
+              style={{
+                width: "50%",
+              }}
             >
-              {/* <a
-                href="/contact-us"
-                className="btn btn-fancy btn-box-shadow btn-small btn-dark-gray"
-              >
-                Start a project
-              </a> */}
-              {/* <a href="/contact-us" className="btn-box-shadow btn-small btn btn-medium btn-fast-yellow btn-round-edge btn-fancy">
-                Start a project!
-              </a> */}
+              <img src="Boolean_Images/bulb.png" alt="" />
             </div>
-        </div>        
-        <div className="position-relative"
-        style={{
-          backgroundColor: "black",
-        }}>
-          <img src="new_images/creativity-bulb1.jpg"
-          style={{
-            opacity: "0.65",
-          }}></img>
-          <div className="position-absolute" 
-          style={{
-              top: "25%",
-              left: "45%"
-          }}>
-            <p style={{
-                  color: "white",
-                  lineHeight: "70px",
-                  fontSize: "60px",
-                  fontWeight: "1000",
-            }}>We are a Technology Agency</p>
-            <br/>
-            <p style={{
-                  fontSize: "25px",
-                  fontWeight: "600",
+           
+            <div className="col-lg-6 ">
+            {/* <h1 style={{fontSize:"2rem", fontWeight:"bold", color:"#d9b223"}}>OUR COMPANY</h1> */}
+              <h1
+              style={{
+                fontSize:"70px",
+                color:"white"
+              }}
+                className="alt-font font-weight-600 text-extra-dark-gray half-rem-bottom text-left text-lg-start wow animate__fadeInRight"
+                data-wow-delay="0.2s"
+              >
+               We Are A Technology Agency
+              </h1>
+              <p
+                style={{
                   color: "black",
-            }}>Express your idea, we will build and design!</p>
-            <br/><br/>
-            <a href="/contact-us" className="btn-box-shadow btn-small btn btn-medium btn-round-edge btn-fancy"
-            style={{
-              backgroundColor: "white",
-            }}>
-              Get a quote for your project!
-            </a>            
+                  fontWeight:"450",
+                  // textAlign:"justify",
+                  fontSize: "30px",
+                  lineHeight:1.5
+                }}
+              >
+               Express your mind we will build and design.
+              </p>
+              <a href="#">
+                <button style={{border:"1px solid white", color:"white"}} className="btn btn-medium ">
+                START PROJECT NOW
+                <span className="m-2">
+                  <i className="fas fa-arrow-circle-right"></i>
+                </span>
+                </button>
+              </a>
+            </div>
+
+       
           </div>
+          
+        
         </div>
-      </div>
+      </section>
     );
   }
 }

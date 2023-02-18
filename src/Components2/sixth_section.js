@@ -2,12 +2,17 @@ import React, { Component } from "react";
 class SixthSection extends Component {
   render() {
     return (
-      <section className="big-section">
-        <div className="container">
-          <div className="row client-logo-style-06 justify-content-center">
+      <section className="big-section" style={{height:"max-content", padding:"0px", backgroundColor:"#f2f2ee"}}>
+        <div style={{textAlign:"center", padding:"20px"}}>
+            <h6 style={{color:"#d9b223", fontWeight:"bold", marginBottom:"0px"}}>Our Clients</h6>
+            <p style={{color:"black", fontWeight:"bold", marginBottom:"0px"}}>We are trusted by Leading and Top- class Brands</p>
+          </div>
+        <div className="container-fluid">
+          
+          <div className="row client-logo justify-content-evenly ">
             {/* start client logo item */}
             <div
-              className="col-10 col-md-3 col-sm-2 border-right border-bottom border-color-medium-gray text-center xs-no-border-right wow animate__fadeIn"
+              className="col-10 col-lg-1 col-sm-2 text-center xs-no-border-right wow animate__fadeIn"
               data-wow-delay="0.1s"
             >
               <div className="client-box padding-4-rem-tb lg-padding-3-rem-tb xs-padding-4-rem-tb">
@@ -19,7 +24,7 @@ class SixthSection extends Component {
             {/* end client logo item */}            
             {/* start client logo item */}
             <div
-              className="col-10 col-md-3 col-sm-2 border-right border-bottom border-color-medium-gray text-center xs-no-border-right wow animate__fadeIn"
+              className="col-10 col-lg-1 col-sm-2 text-center xs-no-border-right wow animate__fadeIn"
               data-wow-delay="0.1s"
             >
               <div className="client-box padding-4-rem-tb lg-padding-3-rem-tb xs-padding-4-rem-tb">
@@ -31,7 +36,7 @@ class SixthSection extends Component {
             {/* end client logo item */}
             {/* start client logo item */}
             <div
-              className="col-10 col-md-3 col-sm-2 border-right border-bottom border-color-medium-gray text-center xs-no-border-right wow animate__fadeIn"
+              className="col-10 col-lg-1 col-sm-2 text-center xs-no-border-right wow animate__fadeIn"
               data-wow-delay="0.1s"
             >
               <div className="client-box padding-4-rem-tb lg-padding-3-rem-tb xs-padding-4-rem-tb">
@@ -43,7 +48,7 @@ class SixthSection extends Component {
             {/* end client logo item */}
             {/* start client logo item */}
             <div
-              className="col-10 col-md-3 col-sm-2 border-right border-bottom border-color-medium-gray text-center sm-no-border-right wow animate__fadeIn"
+              className="col-10 col-lg-1 col-sm-2 text-center sm-no-border-right wow animate__fadeIn"
               data-wow-delay="0.2s"
             >
               <div className="client-box padding-4-rem-tb lg-padding-3-rem-tb xs-padding-4-rem-tb">
@@ -55,7 +60,7 @@ class SixthSection extends Component {
             {/* end client logo item */}
             {/* start client logo item */}
             <div
-              className="col-10 col-md-3 col-sm-2 border-right border-bottom border-color-medium-gray text-center xs-no-border-right wow animate__fadeIn"
+              className="col-10 col-lg-1 col-sm-2 text-center xs-no-border-right wow animate__fadeIn"
               data-wow-delay="0.3s"
             >
               <div className="client-box padding-4-rem-tb lg-padding-3-rem-tb xs-padding-4-rem-tb">
@@ -67,7 +72,7 @@ class SixthSection extends Component {
             {/* end client logo item */}
             {/* start client logo item */}
             <div
-              className="col-10 col-md-3 col-sm-2 border-right border-color-medium-gray text-center sm-border-bottom xs-no-border-right wow animate__fadeIn"
+              className="col-10 col-lg-1 col-sm-2 text-center wow animate__fadeIn"
               data-wow-delay="0.8s"
             >
               <div className="client-box padding-4-rem-tb lg-padding-3-rem-tb xs-padding-4-rem-tb">
@@ -79,7 +84,7 @@ class SixthSection extends Component {
             {/* end client logo item */}
             {/* start client logo item */}
             <div
-              className="col-10 col-md-3 col-sm-2 border-right border-color-medium-gray text-center sm-border-bottom xs-no-border-right wow animate__fadeIn"
+              className="col-10 col-lg-1 col-sm-2 text-center wow animate__fadeIn"
               data-wow-delay="0.8s"
             >
               <div className="client-box padding-4-rem-tb lg-padding-3-rem-tb xs-padding-4-rem-tb">
@@ -91,7 +96,7 @@ class SixthSection extends Component {
             {/* end client logo item */}          
             {/* start client logo item */}
             <div
-              className="col-10 col-md-3 col-sm-2 border-right border-color-medium-gray text-center sm-border-bottom xs-no-border-right wow animate__fadeIn"
+              className="col-10 col-lg-1 col-sm-2 text-center wow animate__fadeIn"
               data-wow-delay="0.8s"
             >
               <div className="client-box padding-4-rem-tb lg-padding-3-rem-tb xs-padding-4-rem-tb">

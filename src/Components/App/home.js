@@ -9,6 +9,9 @@ import SecondSection from "../../Components2/second_section";
 
 import SixthSection from "../../Components2/sixth_section";
 
+import Stats from "../../Components2/stat";
+
+
 import NinthSection from "../../Components2/ninth_section";
 
 import AppLayer from "./AppLayer";
@@ -19,13 +22,16 @@ class HomeApp extends Component {
           
           <FirstSection />
 
-          <SecondSection />
+          <SixthSection />
 
           <FourthSection />
 
+          <SecondSection />
+
           <FifthSection />
 
-          <SixthSection />
+          <Stats />
+          
 
           <EightSection />
 
