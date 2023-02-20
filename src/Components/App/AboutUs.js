@@ -2,6 +2,12 @@ import React, { Component } from "react";
 import AppLayer from "./AppLayer";
 import Team from "./Team";
 
+// import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
+// import "swiper/modules/pagination/pagination.min.css";
+// import "swiper/swiper.min.css";
+
+
+
 class AboutUs extends Component {
   render() {
     return (
@@ -372,6 +378,8 @@ class AboutUs extends Component {
             </div>
           </div>
         </section>
+
+
        
 
        <section style={{backgroundImage: 'url("Boolean_Images/Group 94.png")', backgroundSize:"100%", color:"white", fontWeight:"bold"}}>

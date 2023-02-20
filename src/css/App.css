@@ -40,9 +40,9 @@
 box-shadow: 0 0 4px rgba(0, 0, 0, 0.18);
 cursor: pointer;
 }
-.card-shadow:hover{
+/* .card-shadow:hover{
   background-color: rgba(0, 0, 0, 0.03);
-}
+} */
 .card-shadow:hover .md{
   color:orangered !important
  
@@ -50,7 +50,7 @@ cursor: pointer;
 .nav-item:hover .dropdown-menu{
   display:block!important
 }
-.team-member-details{
+/* .team-member-details{
   background: rgba(255, 255, 9, 0.884);
 
 }
@@ -65,13 +65,13 @@ cursor: pointer;
   font-size: 20px;
   margin: 4px 2px;
   border-radius: 50%;
-}
-.join-team:hover{
+} */
+/* .join-team:hover{
   background-color: black;
   color: yellow;
   
  
-}
+} */
 .btn-yellow{
   background: #d9b223;
 }

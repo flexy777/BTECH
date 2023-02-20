@@ -2,6 +2,9 @@ import React, { Component } from "react";
 class EightSection extends Component {
   render() {
     return (
+
+
+
       <section style={{background:"#A58903"}}>
         <div className="container">
           <div className="row align-items-center justify-content-center">
@@ -55,6 +58,7 @@ class EightSection extends Component {
         
         </div>
       </section>
+
     );
   }
 }

@@ -15,6 +15,7 @@ import Stats from "../../Components2/stat";
 import NinthSection from "../../Components2/ninth_section";
 
 import AppLayer from "./AppLayer";
+import TeamSlider from "../../Components2/TeamSlider";
 class HomeApp extends Component {
   render() {
     return (
@@ -32,6 +33,7 @@ class HomeApp extends Component {
 
           <Stats />
           
+          <TeamSlider />
 
           <EightSection />
 

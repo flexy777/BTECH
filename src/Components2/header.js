@@ -48,7 +48,7 @@ class Header extends Component {
               >
                 <ul className="navbar-nav alt-font">
                   <li className="nav-item dropdown megamenu top">
-                    <a href="/home" className="nav-link">
+                    <a href="/" className="nav-link">
                       Home</a>
                     </li>
                   <li className="nav-item dropdown simple-dropdown top">
@@ -64,9 +64,9 @@ class Header extends Component {
 
                   <li className="nav-item dropdown simple-dropdown top">
                     
-                    <a href="#" className="nav-link">
+                    <a href="/krypton-pay" className="nav-link">
                       Products </a>
-                    <i
+                    {/* <i
                       className="fa fa-angle-down dropdown-toggle"
                       data-bs-toggle="dropdown"
                       aria-hidden="true"
@@ -77,7 +77,7 @@ class Header extends Component {
                           Krypton Pay
                         </a>
                         
-                      </li>
+                      </li> */}
                       {/* <li className="dropdown">
                         <a data-bs-toggle="dropdown" href="javascript:void(0);">
                           Face Analyzer - Skin Care Assistant
@@ -85,7 +85,7 @@ class Header extends Component {
                         </a>
 
                       </li> */}
-                    </ul>
+                    {/* </ul> */}
                   </li>
                   
 
@@ -108,7 +108,7 @@ class Header extends Component {
             <div className="col-auto col-lg-2 text-end hidden-xs px-lg-0">
               <div className="header-social-icon d-inline-block">
               <a
-                    href="contact-us.html"
+                    href="/quote"
                     className="btn btn-medium btn-yellow btn-round-edge"
                   >
                     GET A QUOTE

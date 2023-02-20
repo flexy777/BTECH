@@ -48,6 +48,7 @@ class ChooseUs extends Component {
     const menus = [
       {
         number: "01",
+        icon: "Boolean_Images/Group 83.png ",
         title: "Integrity",
         text: "We maintain transparency all through our development process. Giving our clients utmost certainty we can betrusted with whatever is thrown our way.",
       },
